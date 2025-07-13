@@ -1,0 +1,14 @@
+{
+	"required": true,
+	"package": "com.smpos5.auctionrecorder.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"ChatHudMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}
